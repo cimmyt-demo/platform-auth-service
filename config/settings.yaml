@@ -1,8 +1,7 @@
 service:
-  name: platform-auth-service
-  environment: development
-  log_level: INFO
-
+    name: platform-auth-service
+    environment: development
+    log_level: WARNING
 auth:
-  token_expiry_minutes: 60
-  retry_attempts: 3
+    token_expiry_minutes: 60
+    retry_attempts: 3
