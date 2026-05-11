@@ -1,11 +1,7 @@
 class PlatformAuthService:
-    def __init__(self, config):
+    def __init__(self, config, environment="development"):
         self.config = config
+        self.environment = environment
 
-    def authenticate(self, user_id: str) -> bool:
-        """Basic authentication placeholder."""
-        return bool(user_id)
-
-
-def create_service(config):
-    return PlatformAuthService(config)
+def create_service(config, environment="development"):
+    return PlatformAuthService(config, environment)
