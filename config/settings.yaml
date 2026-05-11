@@ -1,0 +1,8 @@
+service:
+  name: platform-auth-service
+  environment: development
+  log_level: INFO
+
+auth:
+  token_expiry_minutes: 60
+  retry_attempts: 3
