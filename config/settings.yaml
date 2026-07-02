@@ -1,4 +1,4 @@
 service:
   name: platform-auth-service
   log_level: DEBUG
-  retry_attempts: 3
+  retry_attempts: 5
